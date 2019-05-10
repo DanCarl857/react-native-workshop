@@ -21,7 +21,11 @@ const Card = ({ headerText, imageSource, descriptionText }) => {
                     </View>
                 </View>
                 <View>
-                    <Button btnText="See Biography" />
+                    <Button 
+                        btnText="See Biography" 
+                        title={headerText} 
+                        description={descriptionText}
+                    />
                 </View>
             </View>
         </View>
