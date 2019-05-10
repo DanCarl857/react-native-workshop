@@ -36,7 +36,7 @@ d = 5.6
 c = "5" // string
 t = 5 // Number
 p = { q: 8 } // object
-arr = [4] // array
+arr_ = []
 
 console.log("5" == 5) 
 console.log("first line\nSecond line")
@@ -106,7 +106,7 @@ do {
 // Arrays
 let new_array = []; // new Array()
 let arr = ["test", 5, 5, 6.7, {c: 5}];
-arr[0]; // test
+console.log(arr[0]); // test
 
 // Objects
 let old_object = {}
