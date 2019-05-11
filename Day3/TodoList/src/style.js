@@ -8,6 +8,7 @@ const rootContainer = {
 
 const imageWatermark = {
 	backgroundColor: '#8c7ae6d0',
+	flex: 1, 
 }
 
 const headerContainer = {
